@@ -1,6 +1,7 @@
- 
+const express = require('express');
+const bcrypt = require('bcryptjs');
 
-const express = require('express')
+
 const app = express()
 const port = 5000
 app.use((req, res, next) => {
